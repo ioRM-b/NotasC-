@@ -1,8 +1,4 @@
-﻿double x = 3;
-double a = Math.Pow(x, 2);
+﻿using MyFisrtProject;
 
-
-Console.WriteLine(a);
-
-
-Console.ReadKey();
+Hypotenuse obj = new Hypotenuse();
+obj.CalculateHypotenuse();
